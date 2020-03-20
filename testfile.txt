@@ -1,8 +1,6 @@
 testfile
 
-function test() {
-    print("hey im causing merge problems");
-}
+"hey im causing merge problems"
 
 try to format code file using ide for consistent formats.
 
