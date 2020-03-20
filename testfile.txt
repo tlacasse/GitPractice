@@ -1,6 +1,8 @@
 testfile
 
-"hey im causing merge problems"
+function test() {
+    print("helloworld");
+}
 
 try to format code file using ide for consistent formats.
 
