@@ -5,7 +5,7 @@ example workflow
 
 2. Clone your fork. In a terminal in some folder to store repositories:
 
-> git clone https://github.com/<your_username>/GitPractice.git
+> git clone https://github.com/*your_username*/GitPractice.git
 
 3. Enter the repo directory:
 
@@ -33,7 +33,7 @@ example workflow
 
 9. Create a new feature development branch:
 
-> git checkout -b <branch>
+> git checkout -b *branch*
 
 10. Make sure you have the lastest changes before each session of development, (see `rebase -i` explained later):
 
@@ -48,11 +48,11 @@ even which individual lines. Else research `git add`.
 
 13. Commit the staged changes:
 
-> git commit -m "<message>"
+> git commit -m "*message*"
 
 14. Push to your fork:
 
-> git push origin <branch>
+> git push origin *branch*
 
 15. *To practice merge commits*, at the previous point there was `git rebase upstream/master -i`, but for practice we will do:
 
@@ -69,7 +69,7 @@ choose to keep their changes or your changes. Choose what is appropriate, but he
 
 19. This is where you continue development, but any time history is rewritten, you must force push to your remote branch to overwrite it:
 
-> git push origin <branch> --force
+> git push origin *branch* --force
 
 20. And you should be done. That is the general development process.
 
